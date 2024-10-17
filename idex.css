@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    backdrop-filter: blur(20px);
+}
+
+.logo img {
+    width: 12rem;
+}
+
+.navigation a {
+    color: gray;
+    text-decoration: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.btnlogin {
+    width: 140px;
+    height: 45px;
+    background: transparent;
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 2px solid #5a4aef;
+    font-weight: bold;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.btnlogin:hover {
+    background: #5a4aef;
+    color: #fff;
+}
+
+.dhaman h2{
+    font-size: 40px;
+    margin-top: 4rem;
+    
+    
+    
+}
+
+.dhaman p{
+    margin-top: 0.5rem;
+}
+
+.dhaman button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+  .button1{
+    background-color: #5a4aef;
+    color: azure;
+    border: none;
+    margin: 1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button2{
+ border: 0.1px solid #5a4aef ;
+ color: black;
+ margin: 1rem;
+padding: 1rem 2.5rem;
+border-radius: 8px;
+cursor: pointer;
+ 
+}
+
+.button2:hover{
+    background-color: #5a4aef;
+    color: #fff;
+}
+
+.labtop img{
+    width: 50%;
+    margin: auto;  
+    height: 50%; 
+    margin-top: 2rem;
+}
+
+.tiro{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.tiro h1{
+    color: #5a4aef;
+}
+
+.tiro p{
+    font-weight:unset;
+}
+.p{
+    font-weight: bold;
+    margin: 2rem 10rem;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+ .dash img{
+    width: 80%;
+    margin: auto;
+    height: 50%;
+}
+
+.our3{
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.our3 i{
+   background-color: #120d4d;
+   color: #fff;
+   padding: 3rem;
+}
+
+.our i {
+    width: 25%;
+    
+    padding: 1rem;
+    margin-top: 2rem 2rem;
+    box-shadow: rgba(38, 47, 168, 0.35) 0px 5px 15px;   
+}
+
+.our i h3{
+    font-size: 15px;
+}
+
+.our i p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.im img{
+    width: 15%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   padding: 0;
+   margin: 0;
+   justify-content: space-evenly;
+   gap: 2rem;
+   margin-top: 2rem;
+}
+
+.now img{
+    width: 50%;
+    margin: auto;
+    
+}
+
+.now{
+display: flex;
+    margin-top: 4rem;
+    margin: 4rem 15rem;
+    padding: 0%;
+}
+ 
+.now .mob{
+    margin-top: 13rem;
+    margin-left: 0px;
+    padding-left: 0%;
+    margin-right: 0%;
+}
+
+.mob h5{
+    color: #5a4aef;
+    font-weight: bold;
+}
+
+
+.mob button{
+    background-color: #5a4aef;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mob button:hover{
+    background-color: #7062ee;
+}
+
+.mob h1{
+    font-weight: bold;
+}
+
+.lab{
+    display: flex; 
+    padding: 0%;
+    margin: 8rem;
+}
+
+.lab img{
+    width: 80%;
+    margin: auto;
+}
+
+.lab .zip{
+    margin-left: 6rem;
+    text-align: center;
+    align-items: center;
+}
+
+.zip button{
+    background-color: #5a4aef;
+    color: #fff;
+    cursor: pointer;
+}
+
+.zip button:hover{
+    background-color: #6b5dee;
+}
+
+.zip h4{
+    color: #5a4aef;
+}
+
+.qof{
+    display: flex;
+    margin: 8rem;
+}
+
+.qof img{
+    width: 40%;
+    margin: auto;
+
+}
+
+.qof .lug{
+    margin: 8rem;
+    margin-left: 0rem;
+}
+
+.lug button{
+    background-color: #5a4aef;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lug button:hover{
+    background-color: #6b5dee;
+}
+
+.lug h4{
+    color: #5a4aef;
+}
+
+.wadasiman{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between ;
+    transition: all 0.3s ease;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    flex-wrap: wrap;
+   align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+    
+
+    
+}
+
+.course{
+    width: 30%;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+   
+}
+.course .image{
+    width: 100%;
+}
+.course .image img{
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.text h2{
+    color: #5a4aef;
+}
+
+
+.build{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #332d6d;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.build button{
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+
+.build button:hover{
+    background-color: antiquewhite;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem;
+}
+
+.form button{
+    background-color: #0c0644;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #7062ee;
+}
+
+
+.footer{
+    background-color: #15123a;
+    color: #fff;
+    
+}
+
+.ter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    backdrop-filter: blur(20px);
+    gap: 2rem;
+    margin: 0;
+    text-align: left;
+}
+
+.foo img {
+   width: 16%;
+   background-color: #fff;
+   margin-top: 1rem;
+   margin-left: 1px;
+}
+
+
+.tiigsi{
+    background-color: #0c0644;
+}
+ 
+.ter p{
+    color: #5a4aef;
+    
+}
+
+@media ( min-width:1200px){ 
+    .control{  
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+    @media ( min-width:900px ){ 
+        .control{  
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+    
+    @media ( min-width:720px){ 
+        .control{  
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media ( min-width:480px){ 
+        .control{  
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
